@@ -1,0 +1,12 @@
+def votes(x,y,z):
+  l=[x,y,z]
+  for let in l:
+    c=l.count(let)
+    if c>1:
+      return let
+      break
+
+a=int(input())
+for b in range(a):
+  x,y,z=list(map(int,input().split(' ')))
+  print(votes(x,y,z))
