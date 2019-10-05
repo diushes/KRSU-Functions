@@ -1,0 +1,11 @@
+def reverse(a):
+  
+  l=[]
+  if int(a)>=1 and int(a)<=10**9:
+    for dig in str(a):
+      l.append(dig)
+    l.reverse()
+  return print(*l,sep='')
+
+b=input()
+reverse(b)
