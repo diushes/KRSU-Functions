@@ -1,0 +1,9 @@
+def sum8(l):
+  s=sum(l)
+  z=oct(s)
+  z=str(z)
+  return int(z[2:])
+
+
+l=[int(a,8) for a in input().split(' ')]
+print(sum8(l))
