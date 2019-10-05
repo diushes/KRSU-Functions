@@ -1,0 +1,10 @@
+def summa(a):
+  l=[]
+  if int(a)>=1 and int(a)<=10**9:
+    for dig in a:
+      l.append(int(dig))
+    print(*l,sep='+',end='=')
+    print(sum(l))
+ 
+x=input()
+summa(x)
