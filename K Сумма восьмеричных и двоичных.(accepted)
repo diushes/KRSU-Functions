@@ -1,0 +1,6 @@
+def su(a,b):
+  a=int(a,8)
+  b=int(b,2)
+  return a+b
+l=[a for a in input().split(' ')]
+print(su(l[0],l[1]))
