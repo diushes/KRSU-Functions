@@ -1,0 +1,8 @@
+l=[int(a,2) for a in input().split(' ')]
+def mult(l):
+  a=l[0]*l[1]
+  a=str(bin(a))
+  a=a[2:]
+  return a
+
+print(mult(l))
