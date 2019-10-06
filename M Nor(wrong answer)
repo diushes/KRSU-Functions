@@ -1,0 +1,11 @@
+def Nor(x,y):
+  if x==0 and y==0:
+    return 1
+  else:
+    return 0
+
+numoftimes=int(input())
+if numoftimes>=1 and numoftimes<=1000:
+  for i in range(numoftimes):
+    x,y=list(map(int,input().split(' ')))
+    print(Nor(x,y))
